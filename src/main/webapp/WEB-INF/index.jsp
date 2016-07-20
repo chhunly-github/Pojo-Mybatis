@@ -32,7 +32,7 @@
 					<td>{{st.gender}}</td>
 					<td>{{st.score}}</td>
 					<td>
-						<button >delete</button>
+						<button ng-click="delete(0)")>delete</button>
 						<button>Update</button>
 					</td>
 				</tr>
