@@ -5,9 +5,7 @@ public class Student {
 	private String name;
 	private String gender;
 	private float score;
-	public int getId() {
-		return id;
-	}
+
 	public Student() {
 	}
 	public Student(int id, String name, String gender, float score) {
@@ -16,6 +14,9 @@ public class Student {
 		this.name = name;
 		this.gender = gender;
 		this.score = score;
+	}
+	public int getId() {
+		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
@@ -37,6 +38,11 @@ public class Student {
 	}
 	public void setScore(float score) {
 		this.score = score;
+	}
+	
+	@Override
+	public String toString(){
+		return this.id+"/"+this.name+"/"+this.gender+"/"+this.score;
 	}
 	
 }

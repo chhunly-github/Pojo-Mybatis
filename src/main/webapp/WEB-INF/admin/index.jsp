@@ -20,7 +20,8 @@
 	<script src="/resources/js/bootstrap.min.js"></script>
 </head>
 <body ng-app="studentApp">
-	<h1>Welcome, not protected!</h1>
+
+	<h1>Hello, Admin!!!</h1>
 	<div class="container" ng-controller="StudentCtrl">
 		<div>
 			<button ng-click="manipulate('បញ្ចូល','បញ្ចូលទិន្នន័យថ្មី','insert','')" class="btn btn-success" data-toggle="modal" data-target="#input-modal">បន្ថែមទិន្នន័យថ្មី</button>

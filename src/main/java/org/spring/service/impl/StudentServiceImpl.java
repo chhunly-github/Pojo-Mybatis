@@ -25,6 +25,7 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public boolean update(Student student) {
+		System.out.println(student);
 		return studentrepository.update(student);
 	}
 
@@ -36,8 +37,8 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public Student findOne(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return studentrepository.findOne(id);
 	}
 
 }
